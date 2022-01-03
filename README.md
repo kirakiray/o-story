@@ -1,2 +1,32 @@
 # o-story
-A quick site building framework
+
+A quick site building framework.
+
+## 企划
+
+### 愿景
+
+简单快速的建立静态网站；
+
+简单的使用 html 进行开发；
+
+后期会考虑封装一层 markdown 语法；
+
+### 技术选型
+
+主要使用 ofajs 开发；
+
+后期加入 Nodejs 或 Electron 提供静态服务器辅助开发；
+
+### 时间规划
+
+- 先制定模板块标准，使用 web components 封装每个模块模板；
+- 通过每个单独的块，进行单页的预览；
+- 制定总站的 json 格式，进行网页间的跳转；
+- 支持导出成总站的静态 html;
+
+### 提前规划
+
+由于每个模板块是 web components 封装，可以统一一个快速查看的入口；
+每个模板块拥有整页的滚动进度事件通知事件；
+后期可单独制作一个可视化工具，方便设计师制作这种单个模块；
