@@ -7,7 +7,7 @@
     <title>story-demo</title>
     <script src="https://cdn.jsdelivr.net/gh/kirakiray/ofa.js/dist/ofa.js"></script>
     <script src="./story-article.js"></script>
-    <script src="../story-block-temp/story-block-temp.js"></script>
+    <script src="../block-libs/block-one/block-one.js"></script>
     <style>
       html,
       body {
@@ -20,9 +20,11 @@
   </head>
   <body>
     <story-article>
-      <story-block-temp>
-        <div x-render>aaa</div>
-      </story-block-temp>
+      <block-one bg="/sources/demo.jpg">
+        <h2>THIS IS TEST TITLE</h2>
+        <p>Create a web page very quickly</p>
+        <a href="">LEARN MORE</a>
+      </block-one>
     </story-article>
   </body>
 </html>
