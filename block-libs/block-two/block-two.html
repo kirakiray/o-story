@@ -1,0 +1,25 @@
+<style>
+  :host {
+    display: block;
+  }
+  .container {
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 50vh;
+    padding: 5vh;
+    /* background-image: url(/sources/demo.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+</style>
+<div class="container"></div>
+<div style="display: none">
+  <!-- 容器内的元素不做展示，只用于xml数据监听 -->
+  <slot></slot>
+</div>
