@@ -1,0 +1,6 @@
+{
+  "name": "story-block package demo 2",
+  "desc": "dynamic story-block",
+  "demo": "demo.html",
+  "main": "component-template-master/dist/index.js"
+}

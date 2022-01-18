@@ -8,17 +8,41 @@
     width: 100%;
     min-height: 50vh;
     padding: 5vh;
-    /* background-image: url(/sources/demo.jpg); */
+    border: tomato solid 5px;
+    /* background-image: url(/demo_sources/demo.jpg); */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: rgb(238, 227, 227);
+  }
+  .test_block {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: #aaa solid 5px;
+    animation: test_block_anime ease 2s infinite;
+    animation-fill-mode: both;
+    animation-direction: alternate;
+  }
+
+  @keyframes test_block_anime {
+    0% {
+      transform: translate(0, 0);
+    }
+    50% {
+      transform: translate(0, -30px);
+    }
+    100% {
+      transform: translate(0, 30px);
+    }
   }
 </style>
-<div class="container"></div>
+<div class="container">
+  <!-- 存放转换后的元素 -->
+</div>
 <div style="display: none">
   <!-- 容器内的元素不做展示，只用于xml数据监听 -->
   <slot></slot>

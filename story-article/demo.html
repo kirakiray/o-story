@@ -9,6 +9,7 @@
     <script src="./story-article.js"></script>
     <script src="../block-libs/block-one/block-one.js"></script>
     <script src="../block-libs/block-two/block-two.js"></script>
+    <script src="../block-libs/svelte-block/component-template-master/dist/index.js"></script>
     <style>
       html,
       body {
@@ -21,16 +22,17 @@
   </head>
   <body>
     <story-article>
-      <block-one bg="/sources/demo.jpg">
+      <block-one bg="/demo_sources/demo.jpg">
         <h2>THIS IS TEST TITLE</h2>
         <p>Create a web page very quickly</p>
         <a href="">LEARN MORE</a>
       </block-one>
       <block-two>
-        <p>page1</p>
-        <p>page2</p>
-        <p>page3</p>
+        <p>test data 1</p>
+        <p>test data 2</p>
+        <p>test data 3</p>
       </block-two>
+      <svelte-component></svelte-component>
     </story-article>
   </body>
 </html>
