@@ -1,0 +1,22 @@
+<style>
+  :host {
+    display: block;
+    background-color: rgba(0, 128, 0, 0.13);
+  }
+  .container {
+    box-sizing: border-box;
+    padding: 20px;
+    min-height: 400px;
+  }
+  .title {
+    padding: 0 0 20px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+  }
+</style>
+
+<div class="container">
+  <div class="title">custom ele block</div>
+  <slot></slot>
+</div>

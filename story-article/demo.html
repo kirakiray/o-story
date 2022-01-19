@@ -9,7 +9,8 @@
     <script src="./story-article.js"></script>
     <script src="../block-libs/block-one/block-one.js"></script>
     <script src="../block-libs/block-two/block-two.js"></script>
-    <script src="../block-libs/svelte-block/component-template-master/dist/index.js"></script>
+    <script src="../block-libs/custom-ele-block/custom-ele-block.js"></script>
+
     <style>
       html,
       body {
@@ -32,7 +33,9 @@
         <p>test data 2</p>
         <p>test data 3</p>
       </block-two>
-      <svelte-component></svelte-component>
+      <custom-ele-block>
+        <p>test content</p>
+      </custom-ele-block>
     </story-article>
   </body>
 </html>
