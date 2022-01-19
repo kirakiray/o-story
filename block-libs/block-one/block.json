@@ -1,5 +1,7 @@
 {
-  "name": "story-block package demo",
+  "name": "block one",
   "desc": "static story-block",
-  "demo": "demo.html"
+  "depend": {
+    "ofajs": "https://cdn.jsdelivr.net/gh/kirakiray/ofa.js/dist/ofa.js"
+  }
 }
