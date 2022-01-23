@@ -3,5 +3,7 @@
   "desc": "static story-block",
   "depend": {
     "ofajs": "https://cdn.jsdelivr.net/gh/kirakiray/ofa.js/dist/ofa.js"
-  }
+  },
+  "demo": "demo/demo.html",
+  "doc": "docs/readme.md"
 }

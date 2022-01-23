@@ -16,6 +16,9 @@
         .then((e) => e.text())
         .then((text) => {
           shadowRoot.innerHTML = text;
+
+          // 当渲染节点完成时，添加 x-render 属性
+          this.setAttribute("x-render", 1);
         });
     }
   }
