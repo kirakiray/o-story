@@ -10,6 +10,7 @@
     <script src="../block-libs/block-one/block-one.js"></script>
     <script src="../block-libs/block-two/block-two.js"></script>
     <script src="../block-libs/custom-ele-block/custom-ele-block.js"></script>
+    <script src="../bs-libs/block-header/block-header.js"></script>
 
     <style>
       html,
@@ -22,20 +23,28 @@
     </style>
   </head>
   <body>
-    <story-article style="visibility: hidden">
-      <block-one bg="/demo_sources/demo.jpg">
-        <h2>THIS IS TEST TITLE</h2>
-        <p>Create a web page very quickly</p>
-        <a href="">LEARN MORE</a>
-      </block-one>
-      <block-two>
-        <p>test data 1</p>
-        <p>test data 2</p>
-        <p>test data 3</p>
-      </block-two>
-      <custom-ele-block>
-        <p>test content</p>
-      </custom-ele-block>
+    <story-article>
+      <story-article-content style="visibility: hidden">
+        <block-header>
+          <a href="">Home</a>
+          <a href="">Docs</a>
+          <a href="">Example</a>
+          <a href="">Home</a>
+        </block-header>
+        <block-one bg="/demo_sources/demo.jpg">
+          <h2>THIS IS TEST TITLE</h2>
+          <p>Create a web page very quickly</p>
+          <a href="">LEARN MORE</a>
+        </block-one>
+        <block-two>
+          <p>test data 1</p>
+          <p>test data 2</p>
+          <p>test data 3</p>
+        </block-two>
+        <custom-ele-block>
+          <p>test content</p>
+        </custom-ele-block></story-article-content
+      >
     </story-article>
   </body>
 </html>

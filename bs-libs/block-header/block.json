@@ -1,0 +1,8 @@
+{
+  "name": "block header",
+  "desc": "Refer to the header made by bootstrap",
+  "depend": {
+    "ofajs": "https://cdn.jsdelivr.net/gh/kirakiray/ofa.js/dist/ofa.js"
+  },
+  "doc": "docs/readme.md"
+}

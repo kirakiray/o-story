@@ -1,0 +1,31 @@
+<style>
+  .header {
+    background-color: #7855b0;
+    color: #fff;
+  }
+  .container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 16px;
+    max-width: 1300px;
+    height: 64px;
+  }
+
+  .container a {
+    color: #fff;
+  }
+
+  ::slotted(a) {
+    display: inline-block;
+    padding: 8px;
+    color: #fff;
+    text-decoration: none;
+  }
+</style>
+<div class="header">
+  <div class="container">
+    <slot></slot>
+  </div>
+</div>
